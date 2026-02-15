@@ -1,25 +1,25 @@
 class Kfin < Formula
   desc "Kubernetes cost visibility CLI"
   homepage "https://github.com/sharksrus/kfin"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sharksrus/kfin/releases/download/v0.0.3/kfin_darwin_arm64.tar.gz"
-      sha256 "ae097e529e898f9b3662538dc465a089749e892f00e7a421a656731b5a8ddb56"
+      url "https://github.com/sharksrus/kfin/releases/download/v0.0.4/kfin_darwin_arm64.tar.gz"
+      sha256 "3eef40b16b9f24892434b4460ffd066f307921c703a9aa639659a86a14e62f57"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/sharksrus/kfin/releases/download/v0.0.3/kfin_linux_amd64.tar.gz"
-      sha256 "3496b0c765da816ed168f09df170e8451375943aabe5e054151b93f345b62ac1"
+      url "https://github.com/sharksrus/kfin/releases/download/v0.0.4/kfin_linux_amd64.tar.gz"
+      sha256 "193be86933e91e68f2605244089f03e68f77f7e91d059b98a299b7ae0a8f922a"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/sharksrus/kfin/releases/download/v0.0.3/kfin_linux_arm64.tar.gz"
-      sha256 "c6666162e9eec4d94e9d8209e3c287665d34414a1c02b7594e33c4ae96ee6f00"
+      url "https://github.com/sharksrus/kfin/releases/download/v0.0.4/kfin_linux_arm64.tar.gz"
+      sha256 "6afc3ac23e5878b783bd7e2d6b5054aae9b0f5cbcaa2b61609820077782c452d"
     end
   end
 
