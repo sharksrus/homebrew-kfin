@@ -1,0 +1,8 @@
+• # Default owner for all files
+  * @sharksrus/judges
+
+  # Formula and automation are supply-chain sensitive
+  Formula/* @sharksrus/judges
+  .github/workflows/* @sharksrus/judges
+  .github/dependabot.yml @sharksrus/judges
+  README.md @sharksrus/judges
